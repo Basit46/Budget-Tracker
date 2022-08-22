@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.progress {
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.progress::-webkit-progress-bar {
+  background-color: rgb(199, 194, 194);
+  border-radius: 15px;
+}
+.progress::-webkit-progress-value {
+  background-color: rgb(13, 13, 252);
+
+  border-radius: 15px;
+}
+
+.card {
+  transition: visibility 5s;
+}
